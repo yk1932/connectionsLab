@@ -1,0 +1,16 @@
+body {
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+.container__info {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
