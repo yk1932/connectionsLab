@@ -2,6 +2,8 @@
 
 ### Documentation - Yeji Kwon #
 
+<p><b>Github Pages Link:</b> https://yk1932.github.io/projectsPage/</p>
+
 <b>Task:</b>
 <p>To make the process of designing and coding the website more simple, we were assigned to create a wireframe prior to coding the website.</p>
 
