@@ -16,6 +16,7 @@ MAKE a webpage that has at least two event-driven user interactions that are han
 
 <p><b>Final Product</b></p>
 
+![alt text](https://github.com/yk1932/connectionsLab/blob/main/gradientMaker/screenShots/Screen%20Shot%202022-02-06%20at%201.20.13%20PM.png)
 ![alt text](https://github.com/yk1932/connectionsLab/blob/main/gradientMaker/screenShots/Screen%20Shot%202022-02-06%20at%201.19.48%20PM.png)
 ![alt text](https://github.com/yk1932/connectionsLab/blob/main/gradientMaker/screenShots/Screen%20Shot%202022-02-06%20at%201.19.55%20PM.png)
 
@@ -33,6 +34,4 @@ MAKE a webpage that has at least two event-driven user interactions that are han
 </p>
 
 ![alt text](https://github.com/yk1932/connectionsLab/blob/main/gradientMaker/screenShots/Screen%20Shot%202022-02-06%20at%201.20.02%20PM.png)
-
-![alt text](https://github.com/yk1932/connectionsLab/blob/main/gradientMaker/screenShots/Screen%20Shot%202022-02-06%20at%201.20.13%20PM.png)
 
