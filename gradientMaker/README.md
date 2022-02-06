@@ -5,6 +5,8 @@
 <b>Task:</b>
 MAKE a webpage that has at least two event-driven user interactions that are handled in a script.js file.
 
+<p>Github Pages Link: https://yk1932.github.io/gradientMaker/</p>
+
 <p>For the previous project, I made a website showcasing my work. The design of the website was text overlayed on a gradient image that I found online. For this week’s project, I was inspired to use the javascript interactions we learnt in class to create my own gradient maker so that I can have the freedom to select my own colors for the gradients. I started with wireframing on my ipad by hand. I wanted a simple interface where users can pick three colors which will be used to create the gradient in the background.</p>
 
 ![alt text](https://github.com/yk1932/connectionsLab/blob/main/gradientMaker/screenShots/Screen%20Shot%202022-02-06%20at%201.19.35%20PM.png)
@@ -35,5 +37,3 @@ MAKE a webpage that has at least two event-driven user interactions that are han
 
 ![alt text](https://github.com/yk1932/connectionsLab/blob/main/gradientMaker/screenShots/Screen%20Shot%202022-02-06%20at%201.20.13%20PM.png)
 
-
-<p>Github Pages Link: https://yk1932.github.io/gradientMaker/</p>
