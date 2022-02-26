@@ -17,8 +17,6 @@ var openBook = document.getElementById("openBook");
 
 
 
-
-
 //Interaction 1: Click on door to enter cafe
 
 home.addEventListener("mouseover", () =>{

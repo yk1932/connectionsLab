@@ -3,9 +3,8 @@ body {
     background-color: #CCBDB1;
 }
 
-
+/* SVGS are stuck to the bottom with a fixed position for responsive design */
 #svgOne {
-    /* display:none; */
     position: fixed;
     bottom: 0;
     width: 100vw;
@@ -14,7 +13,6 @@ body {
 #svgTwo {
     display: none;
     position: fixed;
-
     bottom: 0;
     width: 100vw;
 }

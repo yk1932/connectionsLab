@@ -1,25 +1,10 @@
+//Interaction 1: Click on door to enter cafe
+
 var home = document.getElementById('home');
+var knock = document.getElementById("knock");
 var svgOne = document.getElementById('svgOne');
 var svgTwo = document.getElementById('svgTwo');
-var svgThree = document.getElementById('svgThree');
-var svgFour = document.getElementById('svgFour');
-
-var homeButton = document.getElementById('homeButton');
-var svgTwoFloor = document.getElementById('svgTwoFloor');
-var svgThreeFloor = document.getElementById('svgTwoFloor');
-var welcomeBookOne = document.getElementById('welcomeBookOne');
-var welcomeBookTwo = document.getElementById('welcomeBookTwo');
-var click = document.getElementById("click");
-var knock = document.getElementById("knock");
 var openDoor = document.getElementById("openDoor");
-var closeBook = document.getElementById("closeBook");
-var openBook = document.getElementById("openBook");
-
-
-
-
-
-//Interaction 1: Click on door to enter cafe
 
 home.addEventListener("mouseover", () =>{
 home.style.fill = '#433D37';
@@ -39,6 +24,9 @@ openDoor.play();
 
 //Interaction 2: Click on floor to go back to home
 
+var svgTwoFloor = document.getElementById('svgTwoFloor');
+
+
 svgTwoFloor.addEventListener("mouseover", () =>{
     svgTwoFloor.style.fill = 'white';
   });
@@ -53,6 +41,11 @@ svgOne.style.display = 'unset';
 });
 
 //Interaction 3: Click on welcome book to browse
+
+var welcomeBookOne = document.getElementById('welcomeBookOne');
+var welcomeBookTwo = document.getElementById('welcomeBookTwo');
+
+//Welcome Book One is the left side of the bookcover
 
 welcomeBookOne.addEventListener("mouseover", () =>{
     welcomeBookOne.style.fill = '#B8C7C7';
@@ -71,6 +64,8 @@ welcomeBookOne.addEventListener("click", () =>{
     openBook.play();
 });
 
+//Welcome Book Two is the right side of the bookcover
+
 welcomeBookTwo.addEventListener("mouseover", () =>{
     welcomeBookOne.style.fill = '#B8C7C7';
     welcomeBookTwo.style.fill = '#B8C7C7';
@@ -87,7 +82,11 @@ welcomeBookTwo.addEventListener("click", () =>{
     openBook.play()
 });
 
+
 //Interaction 4: Back button on svg three leads user back to cafe
+
+var closeBook = document.getElementById("closeBook");
+var svgThree = document.getElementById('svgThree');
 
 var svgThreeBackButton = document.getElementById('svgThreeBackButton');
 
@@ -106,6 +105,12 @@ svgThreeBackButton.addEventListener("click", () =>{
 });
 
 //Interaction 5: Click on any of the books on bookshelve opens svgFour
+
+var homeButton = document.getElementById('homeButton');
+var svgThreeFloor = document.getElementById('svgTwoFloor');
+var click = document.getElementById("click");
+var svgFour = document.getElementById('svgFour');
+var openBook = document.getElementById("openBook");
 
 var bookCover = document.getElementById("bookCover");
 var books = document.getElementsByClassName("books");
@@ -316,8 +321,10 @@ function displayPoem() {
     fetch('https://goquotes-api.herokuapp.com/api/v1/random?count=1')
     .then(response => response.json())
     .then(data => {
+
         poemAuthor.innerHTML = data.quotes[0].author;
 
+        // Each line contains 40 characters
         let lineOne = data.quotes[0].text.slice(0, 40);
         let lineTwo = data.quotes[0].text.slice(40,80);
         let lineThree = data.quotes[0].text.slice(80,120);
@@ -329,6 +336,7 @@ function displayPoem() {
         let lineNine = data.quotes[0].text.slice(320,360);
         let lineTen = data.quotes[0].text.slice(360,400);
 
+        // Add each line into html file
         poemContent.innerHTML = lineOne;
         poemContentTwo.innerHTML = lineTwo;
         poemContentThree.innerHTML = lineThree;
@@ -341,7 +349,6 @@ function displayPoem() {
         poemContentTen.innerHTML = lineTen;
 
         })
-
 
     .catch(error => {
         console.log("Error!!! : " + error);
