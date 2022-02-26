@@ -114,6 +114,6 @@ And then I made the SVG with no background to stick to the bottom of the screen 
 
 ## Moving Forward
 
-1. **Make multiple bookstores and diversify the content users can browse:** <br><br> I want to add different themed bookstores on the main page. For example, a cafe where users can read about architecture, cute animals, coffee, etc. Each cafe will be designed according to the theme. <br>
-2. **Zoom-in feature:** <br><br>This feature will help users of all conditions browse the website without discomfort. <br>
+1. **Make multiple bookstores and diversify the content users can browse:** <br><br> I want to add different themed bookstores on the main page. For example, a cafe where users can read about architecture, cute animals, coffee, etc. Each cafe will be designed according to the theme. <br><br>
+2. **Zoom-in feature:** <br><br>This feature will help users of all conditions browse the website without discomfort. <br><br>
 3. **More interact-able components:**<br><br>I want to make more components interactable. For example, adding a feature where the user can choose the type of drink / dessert they want. Making the trees make sounds when hovered, snowmen smile when you hover them, add a jukebox where the user can change the background music, etc.
