@@ -72,7 +72,6 @@ body {
     border-width: thin;
     border-color: white;
     border-radius: 50%;
-
 }
 
 .color-picker::-webkit-color-swatch-wrapper {
